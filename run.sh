@@ -7,6 +7,6 @@ do
   sleep 2
 done
 
-qpdf --password="$password" --decrypt 2023FRCGameManual.pdf 2023FRCGameManualDecoded.pdf
+qpdf --password="$password" --decrypt 2024GameManual.pdf 2023FRCGameManualDecoded.pdf
 
 open 2023FRCGameManualDecoded.pdf
